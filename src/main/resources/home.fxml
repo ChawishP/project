@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="1024" prefWidth="1280" xmlns="http://javafx.com/javafx/8.0.271" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.HomeController">
+   <children>
+      <ImageView fitHeight="1024.0" fitWidth="1280.0" opacity="0.85" pickOnBounds="true">
+         <image>
+            <Image url="@1.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="610.0" layoutY="758.0" mnemonicParsing="false" onAction="#handlePublisherButton" prefHeight="26.0" prefWidth="60.0" text="Credits" />
+      <Label alignment="CENTER" layoutX="451.0" layoutY="84.0" prefHeight="91.0" prefWidth="380.0" style="-fx-background-color: #221c7d; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: white; -fx-border-width: 2.5;" text="Task Tracker" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="34.0" />
+         </font>
+      </Label>
+      <Button layoutX="855.0" layoutY="231.0" mnemonicParsing="false" onAction="#handleWTaskTableButton" prefHeight="50.0" prefWidth="210.0" style="-fx-background-radius: 10;" text="Weekly Task">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="215.0" layoutY="490.0" mnemonicParsing="false" onAction="#handlePTaskTableButton" prefHeight="50.0" prefWidth="210.0" style="-fx-background-radius: 10;" text="Project Task">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="215.0" layoutY="231.0" mnemonicParsing="false" onAction="#handleTaskTableButton" prefHeight="50.0" prefWidth="210.0" style="-fx-background-radius: 10;" text="Generic Task">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="855.0" layoutY="488.0" mnemonicParsing="false" onAction="#handleFTaskTableButton" prefHeight="50.0" prefWidth="210.0" style="-fx-background-radius: 10;" text="Forwarding Task">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="535.0" layoutY="629.0" mnemonicParsing="false" onAction="#handleTypeTableButton" prefHeight="50.0" prefWidth="210.0" style="-fx-background-radius: 10;" text="Type Summary">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
